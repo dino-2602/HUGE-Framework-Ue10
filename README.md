@@ -16,19 +16,16 @@ Dieses Projekt erweitert das Huge Framework um eine benutzerspezifische Galeriea
 - Bilder werden in einer Listenansicht als Thumbnails angezeigt.
 
 ### 3. Bilder Teilen
-- Generierung eines teilbaren Links zur öffentlichen Anzeige eines Bildes:
-  `localhost/huge/image/showImage/<unique_hash>`
-- Die Freigabe erfolgt über einen individuellen Hash-Code.
+- Die Freigabe eines Bildes ist für alle User sichtbar.
 
 ### 4. Bildverwaltung
-- Bilder können hochgeladen, geteilt, heruntergeladen und gelöscht werden.
+- Bilder können hochgeladen, heruntergeladen, freigegeben und gelöscht werden.
 - Unterstützte Ansichten:
   - Thumbnail-Ansicht
-  - Vollbildansicht (optimiert für verschiedene Auflösungen)
+  - Vollbildansicht (öffnet in einem neuen Tab)
 
 ### 5. Sicherheit
 - Bilder werden in geschützten Verzeichnissen gespeichert, die nicht öffentlich zugänglich sind.
-- Die Integration der UberGallery-Bibliothek verhindert direkten Zugriff auf Dateien.
 - Benutzerrechte und Zugriffe werden über die Datenbank verwaltet.
 
 ## Technologien
@@ -39,7 +36,7 @@ Dieses Projekt erweitert das Huge Framework um eine benutzerspezifische Galeriea
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?logo=javascript&logoColor=white)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-lightblue?logo=mysql&logoColor=white)
 
-⚠️ **Hinweis:** In diesem Repository wurden keine sensiblen Daten wie Konfigurationsdateien hochgeladen.
+⚠️**Hinweis:** In diesem Repository wurde ausschließlich der `application`-Ordner hochgeladen. Dies geschieht, um den Datenschutz zu gewährleisten und keine sensiblen Daten wie Serverkonfigurationen oder Zugangsdaten öffentlich bereitzustellen. Dateien wie `config.php` und andere Konfigurationsdateien, die möglicherweise sensible Informationen enthalten, wurden absichtlich nicht hochgeladen.
 
 ## Einrichtungsschritte
 
@@ -60,14 +57,27 @@ Dieses Projekt erweitert das Huge Framework um eine benutzerspezifische Galeriea
 
 ## Screenshots
 
-### **Benutzer-Galerieansicht**
-![Galerie-Ansicht](https://github.com/dino-2602/Huge-Framework-Gallery/screenshots/galerie_ansicht.png)
+### Datenbankkonfiguration
+Zeigt die Struktur und Inhalte der Tabelle `gallery`, in der Bilder und deren Attribute gespeichert sind.
+![Datenbank-Tabelle](link_zum_screenshot1)
 
-### **Bild teilen**
-![Bild teilen](https://github.com/dino-2602/Huge-Framework-Gallery/screenshots/bild_teilen.png)
+### Benutzer- und Admin-Ansichten der Galerie
+**Admin-Ansicht:** Darstellung der Galerie mit freigegebenen und privaten Bildern.
+![Admin-Ansicht](link_zum_screenshot2)
 
-### **Privates Verzeichnis**
-![Privates Verzeichnis](https://github.com/dino-2602/Huge-Framework-Gallery/screenshots/privates_verzeichnis.png)
+### Öffentliche Galerieansicht
+Zeigt, wie freigegebene Bilder in der öffentlichen Galerie angezeigt werden.
+![Öffentliche Galerie](link_zum_screenshot3)
+
+### Code-Referenzen
+**Modell:** Beispiel für die Speicherung eines Bildes in der Datenbank.
+![Code-Datenbankoperationen](link_zum_code_screenshot1)
+
+**Controller:** Beispiel für die Anzeige eines Bildes aus dem Dateisystem.
+![Code-Bildanzeige](link_zum_code_screenshot2)
+
+**View:** Beispiel für die Darstellung der Galerie-Ansicht.
+![Code-Galerieansicht](link_zum_code_screenshot3)
 
 ---
 
