@@ -42,7 +42,7 @@ Dieses Projekt erweitert das Huge Framework um eine benutzerspezifische Galeriea
 
 1. **Repository klonen:**
    ```bash
-   git clone https://github.com/your_repository/Huge-Framework-Gallery.git
+   git clone https://github.com/your_repository/Huge-Framework-Ue10.git
    ```
 
 2. **Datenbank konfigurieren:**
@@ -78,14 +78,3 @@ Zeigt, wie freigegebene Bilder in der öffentlichen Galerie angezeigt werden.
 
 **View:** Beispiel für die Darstellung der Galerie-Ansicht.
 - [gallery/index.php](https://github.com/dino-2602/HUGE-Framework-Ue10/blob/main/huge/application/view/gallery/index.php): Implementiert die Darstellung der Galerie, einschließlich der Thumbnails und Benutzerinteraktionen.
-
----
-
-### Autor
-**Dino Haskic**
-
-### Klasse
-3aAPC
-
-### Schuljahr
-2024/2025
