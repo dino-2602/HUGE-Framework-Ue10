@@ -59,25 +59,25 @@ Dieses Projekt erweitert das Huge Framework um eine benutzerspezifische Galeriea
 
 ### Datenbankkonfiguration
 Zeigt die Struktur und Inhalte der Tabelle `gallery`, in der Bilder und deren Attribute gespeichert sind.
-![Datenbank-Tabelle](link_zum_screenshot1)
+![Datenbank-Tabelle](https://github.com/dino-2602/HUGE-Framework-Ue10/blob/main/huge/screenshots/huge_db_gallery.png)
 
 ### Benutzer- und Admin-Ansichten der Galerie
 **Admin-Ansicht:** Darstellung der Galerie mit freigegebenen und privaten Bildern.
-![Admin-Ansicht](link_zum_screenshot2)
+![Admin-Ansicht](https://github.com/dino-2602/HUGE-Framework-Ue10/blob/main/huge/screenshots/admin_gellery.png)
 
 ### Öffentliche Galerieansicht
 Zeigt, wie freigegebene Bilder in der öffentlichen Galerie angezeigt werden.
-![Öffentliche Galerie](link_zum_screenshot3)
+![Öffentliche Galerie](https://github.com/dino-2602/HUGE-Framework-Ue10/blob/main/huge/screenshots/demo_gallery.png)
 
 ### Code-Referenzen
 **Modell:** Beispiel für die Speicherung eines Bildes in der Datenbank.
-![Code-Datenbankoperationen](link_zum_code_screenshot1)
+- [GalleryModel.php](https://github.com/dino-2602/HUGE-Framework-Ue10/blob/main/huge/application/model/GalleryModel.php): Enthält Methoden für Datenbankoperationen, einschließlich `saveImage` und `getUserImages`.
 
 **Controller:** Beispiel für die Anzeige eines Bildes aus dem Dateisystem.
-![Code-Bildanzeige](link_zum_code_screenshot2)
+- [GalleryController.php](https://github.com/dino-2602/HUGE-Framework-Ue10/blob/main/huge/application/controller/GalleryController.php): Verantwortlich für die Bildverwaltung, einschließlich `upload`, `showPicture` und `delete`.
 
 **View:** Beispiel für die Darstellung der Galerie-Ansicht.
-![Code-Galerieansicht](link_zum_code_screenshot3)
+- [gallery/index.php](https://github.com/dino-2602/HUGE-Framework-Ue10/blob/main/huge/application/view/gallery/index.php): Implementiert die Darstellung der Galerie, einschließlich der Thumbnails und Benutzerinteraktionen.
 
 ---
 
